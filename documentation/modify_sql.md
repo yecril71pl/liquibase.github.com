@@ -31,6 +31,7 @@ Although Liquibase supports most standard SQL statements with its change tags, t
 <tr><th>Attribute</th><th>Description</th></tr>
 <tr><td>dbms</td><td>List of [database types](../databases.html) to apply the modification(s) to. If not specified, modification is applied on all runs  </td></tr>
 <tr><td>context</td><td>List of [contexts](contexts.html) in which to run the sql modification.  If not specified, is applied in all contexts <b>Since 2.0</b>  </td></tr>
+<tr><td>labels</td><td>List of [labels](labels.html) applied to the sql modification.  <b>Since 3.3</b>  </td></tr>
 <tr><td>applyToRollback| Should the sql modification be applied to rollback statements? Default='false' <b>Since 2.0</b>  </td></tr>
 </table>
 

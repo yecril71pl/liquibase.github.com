@@ -13,10 +13,6 @@ Liquibase can be run in a [Spring](http://www.springframework.org) environment b
 <bean id="liquibase" class="liquibase.integration.spring.SpringLiquibase">
       <property name="dataSource" ref="myDataSource" />
       <property name="changeLog" value="classpath:db-changelog.xml" />
-
-      <!--
-      contexts specifies the runtime contexts to use.
-      -->
       <property name="contexts" value="test, production" />
  </bean>
 {% endhighlight %}
@@ -26,6 +22,7 @@ Liquibase can be run in a [Spring](http://www.springframework.org) environment b
 * beanName
 * changeLog
 * contexts
+* labels
 * dataSource
 * defaultSchema
 * dropFirst **since 2.0.2**

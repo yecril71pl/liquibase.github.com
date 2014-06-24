@@ -52,7 +52,8 @@ Rolls back database changes.  See [rollback](../rollback.html) page for more inf
 <tr><td>rollbackTag</td><td>Tag to roll back to</td></tr>
 <tr><td>rollbackDate</td><td>Date to roll back to</td></tr>
 <tr><td>rollbackCount</td><td>Number of changeSets to roll back</td></tr>
-<tr><td>contexts</td><td>A comma separated list of [contexts](../contexts.html) to roll back. If not specified, all contexts are rolled back.  </td></tr>
+<tr><td>contexts</td><td>A comma separated list of <a href="../contexts.html">contexts</a> to roll back. If not specified, all contexts are rolled back.  </td></tr>
+<tr><td>labels</td><td>A comma separated list of <a href="../labels.html">labels</a> to roll back. If not specified, all labels are rolled back.  </td></tr>
 <tr><td>databaseChangeLogTableName</td><td>Overrides the name of the databasechangelog table to use <b>Since Liquibase 1.9</b> </td></tr>
 <tr><td>databaseChangeLogLockTableName</td><td>Overrides the name of the databasechangeloglock table to use <b>Since Liquibase 1.9</b> </td></tr>
 <tr><td>logLevel</td><td>Specifies one of the following logging levels: debug, info, warning, severe, off. The default level is info.</td></tr>

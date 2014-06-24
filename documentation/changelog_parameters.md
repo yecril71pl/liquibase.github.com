@@ -51,7 +51,7 @@ Parameter values are looked up in the following order:
 
 ### &lt;property&gt; ###
 
-Defines a parameter for the changelog. Given a list of contexts and/or databases, the parameter will be only used in those contexts and/or databases.
+Defines a parameter for the changelog. Given a list of contexts, labels, and/or databases, the parameter will be only used in those contexts, labels, and/or databases.
 
 #### Available Attributes ####
 
@@ -60,6 +60,7 @@ Defines a parameter for the changelog. Given a list of contexts and/or databases
 <tr><td>name</td><td>Name of the table's schema <b>required</b>  </td></tr>
 <tr><td>value</td><td>Name of the column's table <b>required</b>  </td></tr>
 <tr><td>context</td><td>Contexts given as comma separated list.  </td></tr>
+<tr><td>labels</td><td>Labels given as comma separated list.  </td></tr>
 <tr><td>dbms</td><td>Database types given as comma separated list.  </td></tr>
 </table>
 

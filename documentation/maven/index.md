@@ -198,6 +198,7 @@ The `liquibase.properties` must be put in the `src/main/resources` folder, as we
 
 {% highlight properties %}
 contexts: ${liquibase.contexts} 
+labels: ${liquibase.labels} 
 changeLogFile: com/company/client/project/db.changelog.xml 
 driver: ${dataSource.project.driverClass} 
 url: ${dataSource.project.jdbcURL} 

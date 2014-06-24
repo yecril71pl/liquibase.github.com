@@ -84,7 +84,8 @@ To configure the servlet listener, simply add liquibase.jar to your WEB-INF/lib 
 <tr><td>liquibase.host.excludes</td><td>LIQUIBASE_HOST_EXCLUDES</td><td>Specify host names on which you do NO want Liquibase to run. Specifying this parameter allows you to deploy the same WAR/EAR to multiple machines in different environments and not have Liquibase run on all of them.</td></tr>
 <tr><td>liquibase.host.includes</td><td>LIQUIBASE_HOST_INCLUDES</td><td>Specify the ONLY host names on which want Liquibase to run. Specifying this parameter allows you to deploy the same WAR/EAR to multiple machines in different environments and not have Liquibase run on all of them.</td></tr>
 <tr><td>liquibase.onerror.fail</td><td>LIQUIBASE_FAIL_ON_ERROR</td><td>Specify if an exception is thrown by Liquibase if an error occurs. Setting the value to "true" (default) will cause the exception to be thrown and keep the site from initializing properly. Setting the value to "false" will allow the site to deploy as normal, but the database will be in an undefined state.</td></tr>
-<tr><td>liquibase.contexts</td><td>LIQUIBASE_CONTEXTS</td><td>A comma separated lists of the [contexts](contexts.html) to run in.</td></tr>
+<tr><td>liquibase.contexts</td><td>LIQUIBASE_CONTEXTS</td><td>A comma separated lists of the <a href="contexts.html">contexts</a> to run in.</td></tr>
+<tr><td>liquibase.labels</td><td>LIQUIBASE_LABELS</td><td>An expression defining the <a href="labels.html">labeled</a> changeSets to run.</td></tr>
 </table>
 
 If you want to control servers that run Liquibase but don't want to set the LIQUIBASE_HOST_EXCLUDES/LIQUIBASE_HOST_INCLUDES attributes, you can specify the "liquibase.should.run=\[true/false\]" system property.

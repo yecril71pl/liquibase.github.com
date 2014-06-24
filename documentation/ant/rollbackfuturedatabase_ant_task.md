@@ -50,7 +50,8 @@ Outputs SQL to un-run changes that have not yet been executed.  See [rollback](.
 <tr><td>defaultSchemaName</td><td>Schema to use by default for managed database objects and Liquibase control tables  </td></tr>
 <tr><td>outputFile</td><td>Save SQL to given file rather than executing  <b>required</b>  </td></tr>
 <tr><td>classpathref</td><td>A reference to the classpath that contains the database driver, liquibase.jar, and the changelog.xml file</td></tr>
-<tr><td>contexts</td><td>A comma separated list of [contexts](../contexts.html) to execute. If not specified, all contexts are run.  </td></tr>
+<tr><td>contexts</td><td>A comma separated list of <a href="../contexts.html">contexts</a> to execute. If not specified, all contexts are run.  </td></tr>
+<tr><td>labels</td><td>A comma separated list of <a href="../labels.html">labels</a> to execute. If not specified, all labels are ran.  </td></tr>
 <tr><td>currentDateTimeFunction</td><td>Overrides current date time function used in SQL. Useful for unsupported databases</td></tr>
 <tr><td>databaseChangeLogTableName</td><td>Overrides the name of the databasechangelog table to use <b>Since Liquibase 1.9</b> </td></tr>
 <tr><td>databaseChangeLogLockTableName</td><td>Overrides the name of the databasechangeloglock table to use <b>Since Liquibase 1.9</b> </td></tr>

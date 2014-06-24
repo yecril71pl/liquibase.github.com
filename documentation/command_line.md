@@ -104,6 +104,7 @@ If you run the command line migrator without any arguments, you will get a help 
 <tr><th>Option</th><th>Description</th></tr>
 <tr><td>--classpath=&lt;value&gt;</td><td>Classpath containing migration files and JDBC Driver.  </td></tr>
 <tr><td>--contexts=&lt;value&gt;</td><td>ChangeSet contexts to execute.  </td></tr>
+<tr><td>--labels=&lt;value&gt;</td><td>Expression defining changeSet labels to execute.  </td></tr>
 <tr><td>--defaultSchemaName=&lt;schema&gt;</td><td>Specifies the default schema to use for managed database objects and for Liquibase control tables.  </td></tr>
 <tr><td>--databaseClass=&lt;custom.DatabaseImpl&gt;</td><td>Specifies a custom <a href="/javadoc/liquibase/database/Database.html">Database</a> implementation to use  </td></tr>
 <tr><td>--defaultsFile=&lt;/path/to/file&gt;</td><td>File containing default option values. (default: ./liquibase.properties)  </td></tr>

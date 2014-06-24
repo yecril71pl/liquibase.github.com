@@ -46,6 +46,7 @@ Liquibase attempts to execute each changeSet in a transaction that is committed 
 <tr><td>runAlways</td><td>Executes the change set on every run, even if it has been run before </td></tr>
 <tr><td>runOnChange</td><td>Executes the change the first time it is seen and each time the change set has been changed </td></tr>
 <tr><td>context</td><td>Executes the change if the particular context was passed at runtime. Any string can be used for the context name and they are checked case-insensitively. </td></tr>
+<tr><td>labels</td><td>Executes the change if the labels match the labels expression passed at runtime. Any string can be used for the label name and they are checked case-insensitively. Multiple labels can be set by comma separating them. </td></tr>
 <tr><td>runInTransaction</td><td>Should the changeSet be ran as a single transaction (if possible)?  Defaults to true.  <b>Warning: be careful with this attribute.  If set to false and an error occurs part way through running a changeSet containing multiple statements, the Liquibase databasechangelog table will be left in an invalid state.  </b><b>Since 1.9</b> </td></tr>
 <tr><td>failOnError</td><td>Should the migration fail if an error occurs while executing the changeSet? </td></tr>
 </table>

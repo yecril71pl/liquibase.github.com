@@ -27,6 +27,15 @@ Here is an example of a change set using the context attribute:
     </changeSet>
 {% endhighlight %}
 
+## Labels vs. Contexts
+
+Contexts are similar to [labels](labels.html) in that both can be used to control which changeSets execute. The difference is in where complex selector logic can be defined. 
+With contexts, you can only define a set of contexts at runtime, but can specify a complex expression in your changeSet. 
+With labels, you can only define a set of labels in your changeSet but can specify a complex expression at runtime. 
+
+Use labels if the logic to know which changeSets to run is known or is changed at runtime, or if the person doing the deployment wants more control of the changeSets to run. 
+
+Use contexts if the logic to know which changeSets to run is known when writing the changeLog, or if the person writing the changeSet wants more control of the changeSets to run.
 ## Context Syntax ##
 
 Contexts can be specified using AND, OR, ! and parentheses. Without parentheses the order of operations are "!" then "AND" then "OR".

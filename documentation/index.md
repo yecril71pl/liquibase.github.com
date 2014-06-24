@@ -21,6 +21,7 @@ title: Home
 <li><a href="include.html">Including/nesting changelogs</a></li>
 <li><a href="preconditions.html">Preconditions</a></li>
 <li><a href="contexts.html">Contexts</a></li>
+<li><a href="labels.html">Labels</a></li>
 <li><a href="changelog_parameters.html">Changelog Parameters</a></li>
 <li><a href="generating_changelogs.html">Generating Changelogs</a></li>
 <li><a href="existing_project.html">Introducing Liquibase into an existing project</a></li>
@@ -86,6 +87,12 @@ Preconditions can be applied to either the changelog as a whole or individual ch
 Contexts can be applied to changesets to control which are ran in different environments. For example, some changesets can be tagged as "production" and others as "test".
 If no context is specified, the changeset will run regardless of the execution context
  <a href="contexts.html">[more]</a>
+</p>
+
+<h3>Labels</h3>
+<p>
+Labels can be applied to changesets to control which are ran in different environments. They work like Contexts, but allow complex filtering expressions to be defined for each run rather than for each changeSet.
+ <a href="labels.html">[more]</a>
 </p>
 
 </div>

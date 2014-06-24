@@ -5,6 +5,7 @@
 <li><a href="{{pageRoot}}/documentation/include.html"><span>Include</span></a></li>
 <li><a href="{{pageRoot}}/documentation/preconditions.html"><span>Preconditions</span></a></li>
 <li><a href="{{pageRoot}}/documentation/contexts.html"><span>Contexts</span></a></li>
+<li><a href="{{pageRoot}}/documentation/labels.html"><span>Labels</span></a></li>
 <li><a href="{{pageRoot}}/documentation/changelog_parameters.html"><span>ChangeLog Parameters</span></a></li>
 <li><a href="{{pageRoot}}/documentation/update.html"><span>Update</span></a></li>
 <li><a href="{{pageRoot}}/documentation/rollback.html"><span>Rollback</span></a></li>
